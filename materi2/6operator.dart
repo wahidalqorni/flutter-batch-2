@@ -33,11 +33,11 @@ void main() {
 
   print(nilai1 == nilai2);
 
-  bool x = true;
-  bool y = false;
+  bool x = false;
+  bool y = true;
   print("Logical Operators");
   print(x && y); //false
-  print(x || y); //true
+  print(x || y); //=> ATAU (salah satu nilai ada yg benrilai TRUE) output : true 
   print(!y); //true
 
 }

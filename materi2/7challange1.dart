@@ -24,7 +24,7 @@ void main() {
   */
 
   String nama = "Synapse Food";
-  int tahunBediri = 2014;
+  int tahunBerdiri = 2014;
   String alamat = "Jl. Rajawali";
   bool statusBuka = true;
   List<Map<String, dynamic>> daftarMakanan = [
@@ -58,7 +58,7 @@ void main() {
 
   Map<String, dynamic> restoran = {
     'nama' : nama,
-    'tahunBerdiri' : tahunBediri,
+    'tahunBerdiri' : tahunBerdiri,
     'alamat' : alamat,
     'daftarMakanan' : daftarMakanan,
     'daftarMinuman' : daftarMinuman,
