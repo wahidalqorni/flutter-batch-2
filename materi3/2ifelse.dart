@@ -24,6 +24,15 @@ void main(){
       print("Tidak");
     }
 
+    String inputan = "A";
+    if(inputan == "A") {
+      print("A");
+    } else if(inputan == "B") {
+      print("B");
+    } else {
+      print("undefined"); 
+    }
+
     double ipk = 4.8;
     // ipk 2.00 - 2.99 => D
     // ipk 3.00 - 3.99 => B
